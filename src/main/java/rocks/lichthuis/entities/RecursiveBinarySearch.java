@@ -6,7 +6,7 @@ package rocks.lichthuis.entities;
 public class RecursiveBinarySearch implements Search {
 
     /**
-     * Binary rocks.lichthuis.entities.Search function in an array of integers
+     * Binary Search function in an array of integers
      *
      * @param numbers array of integers
      * @param start   lower bound
@@ -17,7 +17,7 @@ public class RecursiveBinarySearch implements Search {
     @Override
     public long search(long[] numbers, int start, int end, long value) {
         int index = (start + end) / 2;
-        if (start > end)
+        if (start >= end)
             return -1;
         else if (numbers[index] == value)
             return index;

@@ -1,13 +1,8 @@
 import rocks.lichthuis.entities.BinarySearch;
 import rocks.lichthuis.entities.LoopBinarySearch;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-
 /**
- * Binary rocks.lichthuis.entities.Search
+ * Binary Search main application
  *
  * @author Jorge Ortiz
  */

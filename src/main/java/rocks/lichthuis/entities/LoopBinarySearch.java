@@ -6,7 +6,7 @@ package rocks.lichthuis.entities;
 public class LoopBinarySearch implements Search {
 
     /**
-     * Binary rocks.lichthuis.entities.rocks.lichthuis.entities.Search function in an array of integers
+     * Binary Search function in an array of integers
      *
      * @param numbers array of integers
      * @param start   lower bound

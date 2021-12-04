@@ -1,5 +1,10 @@
 package rocks.lichthuis.entities;
 
+/**
+ * Binary Search strategy pattern
+ *
+ * @author Jorge Ortiz
+ */
 public class BinarySearch {
     private Search solver;
 
